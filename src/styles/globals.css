@@ -23,3 +23,7 @@ body {
     text-wrap: balance;
   }
 }
+
+label{
+  font-weight: bold !important;
+}
