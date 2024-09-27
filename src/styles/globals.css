@@ -27,3 +27,10 @@ body {
 label{
   font-weight: bold !important;
 }
+.mySwiper .swiper-slide-prev, .mySwiper .swiper-slide-next {
+  filter: blur(8px);
+}
+
+.mySwiper .swiper-slide-active {
+  filter: blur(0);
+}

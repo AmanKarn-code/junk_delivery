@@ -8,13 +8,9 @@ module.exports = {
   images: {
     domains: ['source.unsplash.com'],
   },
-  theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+    theme: {
+      extend: {},
     },
-  },
-  plugins: [],
-};
+    plugins: [],
+  }
+

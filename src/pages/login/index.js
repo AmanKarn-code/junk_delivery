@@ -14,7 +14,7 @@ const Login = () => {
   return (
     <div
       className="min-h-screen flex items-center justify-center transition-colors duration-300 bg-gray-200"
-    > <div className="my-5 bg-white dark:bg-gray-800 shadow-lg rounded-lg p-8 max-w-md w-full">
+    > <div className="my-1 bg-white dark:bg-gray-800 shadow-lg rounded-lg p-8 max-w-md w-full">
         <h2 className="text-2xl font-bold dark:text-white text-center mb-6">Login</h2>
 
         <form className="space-y-6">

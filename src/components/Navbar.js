@@ -39,8 +39,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo and brand name */}
           <div className="flex-shrink-0 flex items-center">
+            <Link href='/'>
             <img className="h-8 w-auto" src="/api/placeholder/32/32" alt="Logo" />
             <span className="ml-2 text-xl font-bold">Brand Name</span>
+            </Link>
           </div>
 
           {/* Desktop menu */}
