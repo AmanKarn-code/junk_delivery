@@ -34,3 +34,9 @@ label{
 .mySwiper .swiper-slide-active {
   filter: blur(0);
 }
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"] {
+  outline: none !important;
+}

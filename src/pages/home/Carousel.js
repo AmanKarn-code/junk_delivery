@@ -14,7 +14,7 @@ const imageProp = [
 
 function CarouselComponent() {
   return (
-    <div className="w-full mx-auto relative py-4">
+    <div className="w-full mx-auto relative py-4 mt-14">
       <Carousel
         showStatus={false}
         showThumbs={false}
@@ -81,9 +81,9 @@ function CarouselComponent() {
               <img
                 src={image.src}
                 alt={image.alt}
-                className="w-full h-[300px] sm:h-[400px] object-cover transition-all duration-300 brightness-50"
+                className="w-full h-[300px] sm:h-[400px] object-cover transition-all duration-300 brightness-75"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-40 transition-opacity duration-300 opacity-0 group-hover:opacity-100"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-40 transition-opacity duration-300 opacity-0 group-hover:opacity-20"></div>
               {/* <p className="absolute bottom-4 left-4 text-white text-lg sm:text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 {image.title}
               </p> */}
