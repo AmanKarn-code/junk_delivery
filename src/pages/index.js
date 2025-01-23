@@ -4,7 +4,7 @@ import CardContainer from './home/cardContainer'
 
 const Index = () => {  
   return (
-    <div className='bg-slate-100 dark:bg-gray-900'>
+    <div className='bg-slate-100 dark:bg-zinc-900'>
     <CarouselComponent/>
     <CardContainer/>
     </div>

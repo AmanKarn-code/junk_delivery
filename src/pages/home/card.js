@@ -6,7 +6,7 @@ const Card = ({ product }) => {
   const [sizeOption, setSizeOption] = useState([])
 
   const handleAddToCart = () => {
-    console.log(`Added ${quantity} ${size} ${product.name} to cart.`);
+    // console.log(`Added ${quantity} ${size} ${product.name} to cart.`);
     // Handle add to cart functionality here
   };
 
